@@ -1,0 +1,154 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-container {
+    background-color: lightblue;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: lightcoral;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 70px;
+}
+
+
+/* Mengatur gaya untuk semua paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Menambahkan margin untuk setiap paragraf */
+p + p {
+    margin-top: 20px;
+}
+
+/* Mengatur paragraf tertentu berdasarkan kelas */
+.container-paraghraf {
+    font-family: 'Georgia', serif;
+    text-align: justify;
+    text-indent: 30px; /* Memberikan indentasi awal */
+}
+
+
+/* GALLERY SECTION */
+.gallery-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.gallery-title {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.gallery-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 0 20px;
+}
+
+.gallery-item {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+/* Styling for Spotify image */
+.spotify-image {
+    width: 50px; /* Ukuran lebar gambar */
+    height: auto; /* Menjaga aspek rasio gambar */
+    margin-top: 10px; /* Memberikan jarak atas */
+    margin-left: auto; /* Menyelaraskan gambar ke tengah */
+    margin-right: auto; /* Menyelaraskan gambar ke tengah */
+    display: block; /* Membuat gambar menjadi block-level element */
+    transition: transform 0.3s ease-in-out; /* Efek animasi saat gambar diklik */
+}
+
+/* Efek ketika hover (mouse berada di atas gambar) */
+.spotify-image:hover {
+    transform: scale(1.1); /* Membesarkan gambar sedikit saat hover */
+}
